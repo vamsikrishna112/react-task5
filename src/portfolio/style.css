@@ -1,0 +1,100 @@
+.body{
+    /* background-color: black; */
+    /* color: white; */
+}
+nav{
+    /* background-color: aliceblue; */
+    border-bottom: 1px solid lightgray;
+}
+.navbar-nav .nav-link, .navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: black;
+    text-decoration: underline blue;
+    text-underline-offset: 10px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 40px;
+}
+.main-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2% 10%;
+}
+img{
+    border-radius: 50%;
+    width: 100%;
+    /* background-color: brown; */
+}
+.myname{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#foot{
+    border-top: 1px solid lightgray;
+    margin-top: 35px;
+    padding: 10px 0px;
+}
+label{
+    display: inline-block;
+    width: 120px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.details{
+    font-size: 17px;
+    font-weight: 600;
+}
+.clgname, .clubname{
+    color: blue;
+}
+.result{
+    color: green;
+}
+.work{
+    margin: 0px 10%;
+}
+/* .outerdiv{
+    background-image: url(./bg-hat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.skillmain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1% 10%;
+    font-size: 17px;
+}
+.skillhead{
+    margin: 20px 40px;
+    color: blue;
+    text-decoration: underline;
+}
+.achieve{
+    margin: 1% 10%;
+    font-size: 17px;
+}
+.projectdiv{
+    margin: 1% 10%;
+}
+.repo{
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+}
+.projectdes{
+    font-size: 17px;
+}
+.projectdesspan{
+    font-size: 17px;
+    font-weight: 600;
+    color: darkmagenta;
+}
